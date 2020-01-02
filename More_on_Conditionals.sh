@@ -29,3 +29,7 @@ then
     echo "ISOSCELES"
     exit 0
 fi
+
+
+echo "SCALENE"
+exit 0

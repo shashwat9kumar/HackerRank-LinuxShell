@@ -24,3 +24,8 @@ then
     exit 0
 fi
 
+if [ $a -eq $c ];
+then 
+    echo "ISOSCELES"
+    exit 0
+fi

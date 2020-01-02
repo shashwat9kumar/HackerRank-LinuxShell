@@ -11,3 +11,11 @@ then
         exit 0
     fi
 fi
+
+if [ $a -eq $b ];
+then 
+    echo "ISOSCELES"
+    exit 0
+fi
+
+

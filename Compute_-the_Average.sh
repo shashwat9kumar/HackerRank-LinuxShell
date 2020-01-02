@@ -8,3 +8,5 @@ do
 done
 
 printf "%.3f" $(echo $sum/$n | bc -l)
+
+

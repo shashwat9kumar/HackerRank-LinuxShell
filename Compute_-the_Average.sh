@@ -6,3 +6,5 @@ do
     read a
     sum=$(($sum +$a))
 done
+
+printf "%.3f" $(echo $sum/$n | bc -l)

@@ -18,4 +18,9 @@ then
     exit 0
 fi
 
+if [ $c -eq $b ];
+then 
+    echo "ISOSCELES"
+    exit 0
+fi
 
